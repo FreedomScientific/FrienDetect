@@ -12,7 +12,7 @@ The app is at prototype stage where it’s been proven to work with a small numb
 
 How to compile + run FrienDetect ~25min setup
 =================================
-
+Instructions to compile FrienDetect.
 Requriements:
 =============================
 -macOS Mojave+
