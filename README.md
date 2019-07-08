@@ -9,7 +9,7 @@ Since iOS does not allow an app to programmatically determine the phone number o
 
 The app is at prototype stage where it’s been proven to work with a small number of iOS devices within vicinity of one another.
 
-=================================
+
 How to compile + run FrienDetect ~25min setup
 =================================
 
