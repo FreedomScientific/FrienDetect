@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0F87982249CA3B004085EB /* Recents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F87972249CA3B004085EB /* Recents.swift */; };
+		3E0F879B2249D33F004085EB /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0F879A2249D33F004085EB /* Details.swift */; };
+		3E14F106224D308A00FF5C3C /* SettingsCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14F105224D308A00FF5C3C /* SettingsCells.swift */; };
+		3E14F108224D31F300FF5C3C /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E14F107224D31F300FF5C3C /* Contacts.swift */; };
+		3E56F59D2239CDA400C40D2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56F59C2239CDA400C40D2F /* AppDelegate.swift */; };
+		3E56F5A42239CDB000C40D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E56F5A32239CDB000C40D2F /* Assets.xcassets */; };
+		3E5C24A5224AF3050049DC61 /* NoDisturbAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C24A4224AF3050049DC61 /* NoDisturbAlert.swift */; };
+		3E614C16223B4BB100ABA82D /* NumberVerificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E614C15223B4BB100ABA82D /* NumberVerificationPage.swift */; };
+		3E614C1A223B4E2600ABA82D /* CodeVerificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E614C19223B4E2600ABA82D /* CodeVerificationPage.swift */; };
+		3E6276BC224742A800EA9150 /* BaseTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6276BB224742A800EA9150 /* BaseTab.swift */; };
+		3EAFEBD1224F12C100AF5836 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAFEBD0224F12C100AF5836 /* ContactCell.swift */; };
+		3ECF61F0225D9CE300143C0F /* RecentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF61EF225D9CE300143C0F /* RecentsCell.swift */; };
+		3ED441A022595A26000B7A96 /* ContactModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ED4419E22595A25000B7A96 /* ContactModel.xcdatamodeld */; };
+		3ED441CC2259746B000B7A96 /* frienDetectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED441CB2259746B000B7A96 /* frienDetectTests.swift */; };
+		3ED441DB2259BA91000B7A96 /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED441DA2259BA91000B7A96 /* PersistentContainer.swift */; };
+		3EE9F690224894E6009807E3 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE9F68F224894E6009807E3 /* MainController.swift */; };
+		3EE9F693224895F4009807E3 /* Actives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE9F692224895F4009807E3 /* Actives.swift */; };
+		3EE9F69622489694009807E3 /* ActivesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE9F69522489694009807E3 /* ActivesCell.swift */; };
+		3EEAB31722518C25000FB6F4 /* BlockedContactAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEAB31622518C25000FB6F4 /* BlockedContactAlert.swift */; };
+		3EEAB31A2251C0F5000FB6F4 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEAB3192251C0F5000FB6F4 /* BluetoothManager.swift */; };
+		8DCBE6862265A280008635D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DCBE6852265A280008635D9 /* GoogleService-Info.plist */; };
+		C6554B2242FBFD667B9D478F /* libPods-frienDetectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E25D9CF37200D49183B98AE5 /* libPods-frienDetectTests.a */; };
+		F07AA75687D8F124969CBAF8 /* libPods-frienDetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFE2EEE9DF9AFB35A3249B7 /* libPods-frienDetect.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ED441CE2259746B000B7A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E56F5912239CDA400C40D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E56F5982239CDA400C40D2F;
+			remoteInfo = frienDetect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21193091CEBE8A72CF07CED2 /* Pods-frienDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frienDetect.release.xcconfig"; path = "Target Support Files/Pods-frienDetect/Pods-frienDetect.release.xcconfig"; sourceTree = "<group>"; };
+		3E0F87972249CA3B004085EB /* Recents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recents.swift; sourceTree = "<group>"; };
+		3E0F879A2249D33F004085EB /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		3E14F105224D308A00FF5C3C /* SettingsCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCells.swift; sourceTree = "<group>"; };
+		3E14F107224D31F300FF5C3C /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		3E56F5992239CDA400C40D2F /* frienDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frienDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E56F59C2239CDA400C40D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E56F5A32239CDB000C40D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E56F5A82239CDB000C40D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5C24A4224AF3050049DC61 /* NoDisturbAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDisturbAlert.swift; sourceTree = "<group>"; };
+		3E614C15223B4BB100ABA82D /* NumberVerificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberVerificationPage.swift; sourceTree = "<group>"; };
+		3E614C19223B4E2600ABA82D /* CodeVerificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerificationPage.swift; sourceTree = "<group>"; };
+		3E6276BB224742A800EA9150 /* BaseTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTab.swift; sourceTree = "<group>"; };
+		3EAFEBD0224F12C100AF5836 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		3ECF61EF225D9CE300143C0F /* RecentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsCell.swift; sourceTree = "<group>"; };
+		3ED4419F22595A26000B7A96 /* ContactModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactModel.xcdatamodel; sourceTree = "<group>"; };
+		3ED441C92259746A000B7A96 /* frienDetectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frienDetectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED441CB2259746B000B7A96 /* frienDetectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frienDetectTests.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		3ED441CD2259746B000B7A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED441DA2259BA91000B7A96 /* PersistentContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
+		3EE9F68F224894E6009807E3 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		3EE9F692224895F4009807E3 /* Actives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actives.swift; sourceTree = "<group>"; };
+		3EE9F69522489694009807E3 /* ActivesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivesCell.swift; sourceTree = "<group>"; };
+		3EEAB31622518C25000FB6F4 /* BlockedContactAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockedContactAlert.swift; sourceTree = "<group>"; };
+		3EEAB3192251C0F5000FB6F4 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		58CC82B3AB207815448154FC /* Pods-frienDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frienDetect.debug.xcconfig"; path = "Target Support Files/Pods-frienDetect/Pods-frienDetect.debug.xcconfig"; sourceTree = "<group>"; };
+		758F346230AB49F058AF8A5A /* Pods-frienDetectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frienDetectTests.debug.xcconfig"; path = "Target Support Files/Pods-frienDetectTests/Pods-frienDetectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DBC648E2272A21F00A57CB7 /* frienDetect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = frienDetect.entitlements; sourceTree = "<group>"; };
+		8DCBE6852265A280008635D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "frienDetect/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C26089E9CA62876C498A1C13 /* Pods-frienDetectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frienDetectTests.release.xcconfig"; path = "Target Support Files/Pods-frienDetectTests/Pods-frienDetectTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEFE2EEE9DF9AFB35A3249B7 /* libPods-frienDetect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-frienDetect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25D9CF37200D49183B98AE5 /* libPods-frienDetectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-frienDetectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E56F5962239CDA400C40D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07AA75687D8F124969CBAF8 /* libPods-frienDetect.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED441C62259746A000B7A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6554B2242FBFD667B9D478F /* libPods-frienDetectTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149E07F4683B46B4E9E33788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58CC82B3AB207815448154FC /* Pods-frienDetect.debug.xcconfig */,
+				21193091CEBE8A72CF07CED2 /* Pods-frienDetect.release.xcconfig */,
+				758F346230AB49F058AF8A5A /* Pods-frienDetectTests.debug.xcconfig */,
+				C26089E9CA62876C498A1C13 /* Pods-frienDetectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3AAE71E450E3C64C23B73784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE2EEE9DF9AFB35A3249B7 /* libPods-frienDetect.a */,
+				E25D9CF37200D49183B98AE5 /* libPods-frienDetectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E0F87992249CB93004085EB /* Main Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EE9F68F224894E6009807E3 /* MainController.swift */,
+			);
+			path = "Main Controller";
+			sourceTree = "<group>";
+		};
+		3E56F5902239CDA400C40D2F = {
+			isa = PBXGroup;
+			children = (
+				3E56F59B2239CDA400C40D2F /* frienDetect */,
+				3ED441CA2259746A000B7A96 /* frienDetectTests */,
+				3E56F59A2239CDA400C40D2F /* Products */,
+				149E07F4683B46B4E9E33788 /* Pods */,
+				3AAE71E450E3C64C23B73784 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E56F59A2239CDA400C40D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E56F5992239CDA400C40D2F /* frienDetect.app */,
+				3ED441C92259746A000B7A96 /* frienDetectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E56F59B2239CDA400C40D2F /* frienDetect */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC648E2272A21F00A57CB7 /* frienDetect.entitlements */,
+				3ED441D72259B9E7000B7A96 /* PersistentContainer */,
+				3ED441C2225971CF000B7A96 /* CoreData */,
+				3EEAB3182251C0CD000FB6F4 /* Bluetooth */,
+				3E5C24A1224AE90C0049DC61 /* PopAlert */,
+				3E0F87992249CB93004085EB /* Main Controller */,
+				3EE9F691224895DB009807E3 /* Tabs */,
+				3E614C18223B4D8000ABA82D /* AppDelegate */,
+				3E614C17223B4D6E00ABA82D /* Verification */,
+				3E56F5A32239CDB000C40D2F /* Assets.xcassets */,
+				3E56F5A82239CDB000C40D2F /* Info.plist */,
+			);
+			path = frienDetect;
+			sourceTree = "<group>";
+		};
+		3E5C24A1224AE90C0049DC61 /* PopAlert */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C24A4224AF3050049DC61 /* NoDisturbAlert.swift */,
+				3EEAB31622518C25000FB6F4 /* BlockedContactAlert.swift */,
+			);
+			path = PopAlert;
+			sourceTree = "<group>";
+		};
+		3E614C17223B4D6E00ABA82D /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				3E614C15223B4BB100ABA82D /* NumberVerificationPage.swift */,
+				3E614C19223B4E2600ABA82D /* CodeVerificationPage.swift */,
+				8DCBE6852265A280008635D9 /* GoogleService-Info.plist */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		3E614C18223B4D8000ABA82D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3E56F59C2239CDA400C40D2F /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3ED441C2225971CF000B7A96 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3ED4419E22595A25000B7A96 /* ContactModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3ED441CA2259746A000B7A96 /* frienDetectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ED441CB2259746B000B7A96 /* frienDetectTests.swift */,
+				3ED441CD2259746B000B7A96 /* Info.plist */,
+			);
+			path = frienDetectTests;
+			sourceTree = "<group>";
+		};
+		3ED441D72259B9E7000B7A96 /* PersistentContainer */ = {
+			isa = PBXGroup;
+			children = (
+				3ED441DA2259BA91000B7A96 /* PersistentContainer.swift */,
+			);
+			path = PersistentContainer;
+			sourceTree = "<group>";
+		};
+		3EE9F691224895DB009807E3 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3EE9F69422489677009807E3 /* Cells */,
+				3E6276BB224742A800EA9150 /* BaseTab.swift */,
+				3E0F87972249CA3B004085EB /* Recents.swift */,
+				3EE9F692224895F4009807E3 /* Actives.swift */,
+				3E0F879A2249D33F004085EB /* Details.swift */,
+				3E14F107224D31F300FF5C3C /* Contacts.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		3EE9F69422489677009807E3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E14F105224D308A00FF5C3C /* SettingsCells.swift */,
+				3EE9F69522489694009807E3 /* ActivesCell.swift */,
+				3EAFEBD0224F12C100AF5836 /* ContactCell.swift */,
+				3ECF61EF225D9CE300143C0F /* RecentsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3EEAB3182251C0CD000FB6F4 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				3EEAB3192251C0F5000FB6F4 /* BluetoothManager.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E56F5982239CDA400C40D2F /* frienDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E56F5AB2239CDB000C40D2F /* Build configuration list for PBXNativeTarget "frienDetect" */;
+			buildPhases = (
+				34E63E7718F368E64F250600 /* [CP] Check Pods Manifest.lock */,
+				3E56F5952239CDA400C40D2F /* Sources */,
+				3E56F5962239CDA400C40D2F /* Frameworks */,
+				3E56F5972239CDA400C40D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frienDetect;
+			productName = frienDetect;
+			productReference = 3E56F5992239CDA400C40D2F /* frienDetect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ED441C82259746A000B7A96 /* frienDetectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED441D02259746B000B7A96 /* Build configuration list for PBXNativeTarget "frienDetectTests" */;
+			buildPhases = (
+				A2A5700D7A4E6AF9384A86EC /* [CP] Check Pods Manifest.lock */,
+				3ED441C52259746A000B7A96 /* Sources */,
+				3ED441C62259746A000B7A96 /* Frameworks */,
+				3ED441C72259746A000B7A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ED441CF2259746B000B7A96 /* PBXTargetDependency */,
+			);
+			name = frienDetectTests;
+			productName = frienDetectTests;
+			productReference = 3ED441C92259746A000B7A96 /* frienDetectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E56F5912239CDA400C40D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = v5VHzzyR6H7hstDe;
+				TargetAttributes = {
+					3E56F5982239CDA400C40D2F = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3ED441C82259746A000B7A96 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3E56F5982239CDA400C40D2F;
+					};
+				};
+			};
+			buildConfigurationList = 3E56F5942239CDA400C40D2F /* Build configuration list for PBXProject "frienDetect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E56F5902239CDA400C40D2F;
+			productRefGroup = 3E56F59A2239CDA400C40D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E56F5982239CDA400C40D2F /* frienDetect */,
+				3ED441C82259746A000B7A96 /* frienDetectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E56F5972239CDA400C40D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E56F5A42239CDB000C40D2F /* Assets.xcassets in Resources */,
+				8DCBE6862265A280008635D9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED441C72259746A000B7A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E63E7718F368E64F250600 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-frienDetect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A5700D7A4E6AF9384A86EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-frienDetectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E56F5952239CDA400C40D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EAFEBD1224F12C100AF5836 /* ContactCell.swift in Sources */,
+				3EE9F69622489694009807E3 /* ActivesCell.swift in Sources */,
+				3E6276BC224742A800EA9150 /* BaseTab.swift in Sources */,
+				3E14F108224D31F300FF5C3C /* Contacts.swift in Sources */,
+				3E56F59D2239CDA400C40D2F /* AppDelegate.swift in Sources */,
+				3ECF61F0225D9CE300143C0F /* RecentsCell.swift in Sources */,
+				3EEAB31722518C25000FB6F4 /* BlockedContactAlert.swift in Sources */,
+				3E5C24A5224AF3050049DC61 /* NoDisturbAlert.swift in Sources */,
+				3EEAB31A2251C0F5000FB6F4 /* BluetoothManager.swift in Sources */,
+				3ED441DB2259BA91000B7A96 /* PersistentContainer.swift in Sources */,
+				3E0F87982249CA3B004085EB /* Recents.swift in Sources */,
+				3EE9F693224895F4009807E3 /* Actives.swift in Sources */,
+				3EE9F690224894E6009807E3 /* MainController.swift in Sources */,
+				3E0F879B2249D33F004085EB /* Details.swift in Sources */,
+				3E614C16223B4BB100ABA82D /* NumberVerificationPage.swift in Sources */,
+				3ED441A022595A26000B7A96 /* ContactModel.xcdatamodeld in Sources */,
+				3E614C1A223B4E2600ABA82D /* CodeVerificationPage.swift in Sources */,
+				3E14F106224D308A00FF5C3C /* SettingsCells.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED441C52259746A000B7A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED441CC2259746B000B7A96 /* frienDetectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ED441CF2259746B000B7A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E56F5982239CDA400C40D2F /* frienDetect */;
+			targetProxy = 3ED441CE2259746B000B7A96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E56F5A92239CDB000C40D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E56F5AA2239CDB000C40D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E56F5AC2239CDB000C40D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CC82B3AB207815448154FC /* Pods-frienDetect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = frienDetect/frienDetect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYMTWJ4KQ8;
+				INFOPLIST_FILE = frienDetect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.v5VHzzyR6H7hstDe.newiOSApp557;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3E56F5AD2239CDB000C40D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21193091CEBE8A72CF07CED2 /* Pods-frienDetect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = frienDetect/frienDetect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYMTWJ4KQ8;
+				INFOPLIST_FILE = frienDetect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.v5VHzzyR6H7hstDe.newiOSApp557;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3ED441D12259746B000B7A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758F346230AB49F058AF8A5A /* Pods-frienDetectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYMTWJ4KQ8;
+				INFOPLIST_FILE = frienDetectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HOME.frienDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frienDetect.app/frienDetect";
+			};
+			name = Debug;
+		};
+		3ED441D22259746B000B7A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26089E9CA62876C498A1C13 /* Pods-frienDetectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYMTWJ4KQ8;
+				INFOPLIST_FILE = frienDetectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HOME.frienDetectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frienDetect.app/frienDetect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E56F5942239CDA400C40D2F /* Build configuration list for PBXProject "frienDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E56F5A92239CDB000C40D2F /* Debug */,
+				3E56F5AA2239CDB000C40D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E56F5AB2239CDB000C40D2F /* Build configuration list for PBXNativeTarget "frienDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E56F5AC2239CDB000C40D2F /* Debug */,
+				3E56F5AD2239CDB000C40D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED441D02259746B000B7A96 /* Build configuration list for PBXNativeTarget "frienDetectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED441D12259746B000B7A96 /* Debug */,
+				3ED441D22259746B000B7A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3ED4419E22595A25000B7A96 /* ContactModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3ED4419F22595A26000B7A96 /* ContactModel.xcdatamodel */,
+			);
+			currentVersion = 3ED4419F22595A26000B7A96 /* ContactModel.xcdatamodel */;
+			path = ContactModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E56F5912239CDA400C40D2F /* Project object */;
+}
