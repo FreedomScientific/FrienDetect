@@ -14,35 +14,35 @@ Instructions to compile and run FrienDetect. ~25min setup
 =========================================================
 
 
-Requriements:
+Requirements:
 -----------------------------
-* macOS Mojave+
+* MacOS Mojave+
 * FrienDetect.bundle file
-* recommended iPhone 5s(or higher) with usb cable
+* Recommended iPhone 5s(or higher) with usb cable
 
 Apple Account (~5min)
 -----------------------------
-* setup an Apple ID
+* Setup an Apple ID
 	* need name, email, security questions
-* setup an Apple Developer Acconut
+* Setup an Apple Developer Acconut
 	* go to: https://developer.apple.com/
 
 Installing Programs (~10min)
 --------------------------------
-* install XCode (get from AppStore or Apple Website)
-* install XCode command line tools
+* Install XCode (get from AppStore or Apple Website)
+* Install XCode command line tools
 	* run 'xcode-select --install'
-* install Cocoa Pods
+* Install Cocoa Pods
 	* run 'sudo gem install cocoapods' (or download from internet)
 
 
 Compiling without FireBase ~10min
 -------------------------------------
-* in xx/FrienDetect:
+* In xx/FrienDetect:
 	* run 'pod install'
 	* run 'open ./frienDetect.xcworkspace'
 
-* in XCode:
+* In XCode:
 	* Open 'frienDetect'- the project file (available in the left pane*):
 		*hit command+shift+1 to show project navigator
 	* In the project under general>signing>team, select your account
@@ -51,10 +51,10 @@ Compiling without FireBase ~10min
 		* if uniqueness error shows under general>signing, append more numbers & press enter.
 		* The Bundle Identifier must be unique and should be configured properly before uploading to the AppStore/TestFlight
 
-* on iPhone
+* On iPhone
 	* connect, unlock and hit 'trust this computer'
-* in XCode (top left corner) click the drop down & select your device
-* hit the play button or press 'command+r' 
+* In XCode (top left corner) click the drop down & select your device
+* Hit the play button or press 'command+r' 
 * If you are using a free account, open the iPhone and go to settings>general>device management(at the bottom), select your account and hit trust. Now the run command will work (you will have to do this periodically when using a free account)
 
 Troubleshooting:
